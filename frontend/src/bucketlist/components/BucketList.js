@@ -18,7 +18,7 @@ const BucketList = (props) => {
 
 	return (
 		<ul className="place-list">
-			<h2 className = "view-title">{` ${props.nameOfListOwner}'s Bucket List`}</h2>
+			<h2 className="view-title">{` ${props.nameOfListOwner}'s Bucket List`}</h2>
 			{props.items.map((place) => (
 				<BucketListItem
 					key={place.id._id}
